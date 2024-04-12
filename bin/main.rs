@@ -174,24 +174,6 @@ async fn main() -> eyre::Result<()> {
         None => { /* No chisel subcommand present; Continue */ }
     }
 
-    // // Create a new rustyline Editor
-    // let mut rl = Editor::<SolidityHelper, _>::new()?;
-    // rl.set_helper(Some(SolidityHelper::default()));
-
-    // // automatically add lines to history
-    // rl.set_auto_add_history(true);
-
-    // // load history
-    // if let Some(chisel_history) = chisel_history_file() {
-    //     let _ = rl.load_history(&chisel_history);
-    // }
-
-    // Print welcome header
-    println!(
-        "Welcome to Chisel! Type `{}` to show available commands.",
-        Paint::green("!help")
-    );
-
     // setup terminal
     enable_raw_mode()?;
     let mut stdout = std::io::stdout();
