@@ -1,5 +1,5 @@
 # thisel
-Thisel is Solidty REPL TUI build on top of chisel[https://github.com/foundry-rs/foundry/tree/master/crates/chisel].
+Thisel is Solidty REPL TUI build on top of [chisel](https://github.com/foundry-rs/foundry/tree/master/crates/chisel).
 
 Features:
   - autocomplete
